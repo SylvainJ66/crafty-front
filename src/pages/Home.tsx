@@ -32,7 +32,7 @@ const fakeMessages: PropsOf<typeof PostList>["messages"] = [
 export const Home = () => {
     return (
         <>
-            <TimelineDivider text="For you" />
+            <TimelineDivider text="Salut" />
             <PostList messages={fakeMessages} />
         </>
     );
