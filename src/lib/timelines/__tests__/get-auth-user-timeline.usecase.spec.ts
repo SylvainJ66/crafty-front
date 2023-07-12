@@ -1,6 +1,6 @@
 import { describe, it } from "vitest";
 
-describe("test suite", () => {
+describe("Feature: Retrieving authenticated user's timeline", () => {
    it("works", ({expect}) => {
         expect(true).toBe(true);
    });
